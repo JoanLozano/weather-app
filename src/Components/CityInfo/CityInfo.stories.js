@@ -1,6 +1,7 @@
 //Importaciones
 import React from "react";
 import CityInfo from "./Index";
+import 'typeface-roboto';
 
 //Exportaciones
 export default {

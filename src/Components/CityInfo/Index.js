@@ -6,14 +6,10 @@ import Styles from "./CityInfo.module.css";
 const CityInfo = ({ city, country }) => {
   return (
     <>
-        <Typography variant="h6">
-            {city}
-        </Typography>
-        <Typography variant="h5">
-            {country}
-        </Typography>
+      <Typography variant="h4" display="inline">{city}, </Typography>
+      <Typography variant="h6" display="inline">{country}</Typography>
     </>
-  )
+  );
 };
 
 CityInfo.propTypes = {
